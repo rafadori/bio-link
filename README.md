@@ -1,24 +1,24 @@
-# 📎 Links na Bio
+# 📎 Links in Bio
 
-Bem-vindo ao projeto **Links na Bio**! 🌟
+Welcome to the **Links in Bio project**! 🌟
 
-## 📚 Introdução
+## 📚 Introduction
 
-Depois de mais de 2 anos trabalhando em projetos privados com diversos frameworks, resolvi voltar a fazer projetos pessoais. Este projeto foi criado para revisitar o básico de desenvolvimento web: HTML, CSS e JavaScript. O objetivo é criar uma página simples, porém funcional, onde você pode centralizar todos os links importantes em um só lugar.
+After more than 2 years working on private projects with various frameworks, I decided to return to creating personal projects. This project was designed to revisit the basics of web development: HTML, CSS, and JavaScript. The goal is to create a simple yet functional page where you can centralize all your important links in one place.
 
-## 📋 Funcionalidades
+## 📋 Features
 
-- Adicionar vários links personalizados
-- Design responsivo para dispositivos móveis
-- Estilo simples e elegante
-- Fácil de personalizar
+- Add multiple custom links
+- Responsive design for mobile devices
+- Clean and elegant style
+- Easy to customize
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies used
 
 - HTML5
 - CSS3
 - JavaScript
 
-## 📚 Bibliotecas
+## 📚 Libraries
 
 - VantaJS
