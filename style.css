@@ -1,0 +1,107 @@
+:root {
+  --background-light: #344bb6;
+  --background-medium: #4a3fa3;
+  --background-dark: #643091;
+  --text-dark: #333333;
+  --text-light: #f2f2f2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    to bottom,
+    var(--background-light),
+    var(--background-medium),
+    var(--background-dark)
+  );
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  color: var(--text-light);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: centers;
+}
+
+#profilePhoto {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  box-shadow: rgb(28, 32, 93 / 24%) 0px 2px 8px 0px;
+}
+
+header > h1 {
+  font-weight: 800;
+}
+
+header > h2 {
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+.menu-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 5rem;
+}
+
+a {
+  color: var(--text-dark);
+  text-decoration: none;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.menu-item {
+  background-color: #f0f5f2;
+  color: white;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  font-size: 16px;
+  box-shadow: 0 4px #999;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.menu-item:hover {
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+.menu-item:active {
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.menu-item:visited {
+  color: inherit;
+}
+
+.menu-item span {
+  flex-grow: 1;
+  text-align: center;
+}
